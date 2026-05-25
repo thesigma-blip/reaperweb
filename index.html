@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reaper Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-left">
+      <span class="logo">Reaper<span>Web</span></span>
+    </div>
+    <nav class="nav-right">
+      <a href="#features">Funkce</a>
+      <a href="#pricing">Plány</a>
+      <a href="#docs">Dokumentace</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
 
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Moderní web ve stylu bota</h1>
+        <p>ReaperWeb je landing page inspirovaná boty jako Xenon – čistý design, přehledné sekce a ready na GitHub Pages.</p>
+        <div class="hero-buttons">
+          <a href="#pricing" class="btn primary">Začít zdarma</a>
+          <a href="#features" class="btn secondary">Zobrazit funkce</a>
+        </div>
+        <p class="hero-note">Hostováno na GitHub Pages • Open‑source pod GPL‑3.0</p>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-header">Status</div>
+        <div class="hero-card-body">
+          <p><span class="dot dot-green"></span> Web online</p>
+          <p><span class="dot dot-yellow"></span> První release ve vývoji</p>
+          <p><span class="dot dot-red"></span> Premium funkce coming soon</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section">
+      <h2>Funkce</h2>
+      <p class="section-subtitle">Jednoduchý, ale připravený na rozšíření.</p>
+      <div class="cards">
+        <div class="card">
+          <h3>Moderní design</h3>
+          <p>Neonový, tmavý styl vhodný pro boty, panely a gaming projekty.</p>
+        </div>
+        <div class="card">
+          <h3>GitHub Pages ready</h3>
+          <p>Stačí pushnout kód a web běží. Žádný hosting, žádné starosti.</p>
+        </div>
+        <div class="card">
+          <h3>Rozšiřitelná struktura</h3>
+          <p>Oddělené CSS, JS a obrázky. Připravené pro další stránky a funkce.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="section">
+      <h2>Plány</h2>
+      <p class="section-subtitle">Můžeš si to nechat jako free projekt, nebo z toho udělat něco většího.</p>
+      <div class="cards pricing-cards">
+        <div class="card pricing-card">
+          <h3>Free</h3>
+          <p class="price">0 Kč / měsíc</p>
+          <ul>
+            <li>GitHub Pages hosting</li>
+            <li>Open‑source kód</li>
+            <li>Vhodné pro osobní projekty</li>
+          </ul>
+          <a href="#" class="btn secondary full">Používat free</a>
+        </div>
+        <div class="card pricing-card highlight">
+          <h3>Custom</h3>
+          <p class="price">Tvoje pravidla</p>
+          <ul>
+            <li>Vlastní doména</li>
+            <li>Vlastní backend / API</li>
+            <li>Branding (Reaper, KEP1X, cokoliv)</li>
+          </ul>
+          <a href="#support" class="btn primary full">Plánovat rozšíření</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOCS -->
+    <section id="docs" class="section">
+      <h2>Dokumentace</h2>
+      <p class="section-subtitle">Základní info, jak s projektem pracovat.</p>
+      <div class="docs-box">
+        <pre>
+git clone https://github.com/thesigma-blip/reaperweb.git
+cd reaperweb
+# Uprav index.html a assets/css/style.css
+        </pre>
+        <p>Všechen frontend je statický. Backend (API, bot panel) můžeš přidat později.</p>
+      </div>
+    </section>
+
+    <!-- SUPPORT -->
+    <section id="support" class="section">
+      <h2>Support / Kontakt</h2>
+      <p class="section-subtitle">Sem si můžeš později dát odkaz na Discord, e‑mail nebo cokoliv dalšího.</p>
+      <div class="support-box">
+        <p>Např.: <strong>discord.gg/tvujserver</strong> nebo <strong>support@reaperweb.xyz</strong></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> ReaperWeb • Vytvořeno na GitHub Pages</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
